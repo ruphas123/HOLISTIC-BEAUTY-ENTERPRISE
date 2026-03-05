@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body  {
+  background: #efeae3;
+  color: #1aa918;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* HEADER */
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: #1e583b;
+}
+
+/* LOGO */
+.logo img {
+  height: 65px;
+  width: auto;
+}
+
+/* NAVIGATION */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #dde35d;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #2f6f4e, #5fa37b);
+  text-align: center;
+  padding: 100px 10%;
+  color: white;
+}
+
+.hero h1 { font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  color: #e8f5ec;
+}
+
+.hero-buttons .btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.primary {
+  background: white;
+  color: #21892a;
+}
+
+.secondary {
+  border: 2px solid white;
+  color: white;
+}
+
+.primary:hover, .secondary:hover {
+  opacity: 0.9;
+}
+
+/* ABOUT */
+.about {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.about h2 { font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  color: #2f6f4e;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* SERVICES */
+.services {
+  padding: 80px 10%;
+  text-align: center;
+  background: #ffffff;
+}
+
+.services h2 {
+  font-size: 2.2rem;
+  color: #2f6f4e;
+  margin-bottom: 40px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #f7efe5;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 { font-family: 'Playfair Display', serif;
+  color: #2f6f4e;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.5;
+}.services {
+  padding: 80px 40px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.services-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  margin: 15px 0;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0 20px 20px;
+}
+
+.service-card ul li {
+  margin: 5px 0;
+}
+
+/* CONTACT */
+.contact {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.2rem;
+  color: #2f6f4e;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input, .contact textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  margin-top: 10px;
+}
+
+/* BUTTONS */
+.btn {
+  cursor: pointer;
+}/* CTA */
+.cta {
+  background: #2f6f4e;
+  color: white;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact input, .contact textarea {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.contact button {
+  background: #2f6f4e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  opacity: 0.9;
+}
+
+/* FOOTER */
+footer {
+  background: #1f3d2b;
+  color: white;
+  text-align: center;
+  padding: 20px 10%;
+}/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta h2 {
+    font-size: 1.5rem;
+  }
+}/* BUTTON HOVER */
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* CARD HOVER (already added but ensure smooth) */
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  transition: transform 0.3s ease;
+}
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* Fade-in for sections */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #000; /* or your header color */
+}
+
+.logo img {
+  height: 70px;   /* Adjust size here */
+  width: auto;
+}header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #000; /* or your header color */
+}
+
+.logo img {
+  height: 100px;   /* Adjust size here */
+  width: auto;
+}.wave {
+  display: inline-block;
+  animation: wave-animation 2s 1;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+  50% { transform: rotate(-4deg); }
+  60% { transform: rotate(10deg); }
+  70% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
